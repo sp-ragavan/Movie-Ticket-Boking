@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+
+.container {
+    width: 40%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input, button {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+.logout {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    text-decoration: none;
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.logout:hover {
+    background: darkred;
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie {
+    background: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0px 0px 5px #000;
+}
+
+.movie img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.movie h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.movie .btn {
+    background: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.theaters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.theater {
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0px 0px 5px #000;
+}
+
+.theater h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.theater p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.theater .btn {
+    background: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.showtimes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.showtime {
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0px 0px 5px #000;
+}
+
+.showtime p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.showtime .btn {
+    background: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #333;
+    color: white;
+}
+
+td {
+    background: #f9f9f9;
+}
+
+.container select {
+    padding: 8px;
+    margin: 10px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f3f3f3;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;  /* Removes underline */
+    color: skyblue;         /* Change to your preferred color */
+    font-family: Arial, sans-serif; /* Change font style */
+    font-weight: bold;       /* Make text bold */
+    font-size: 16px;         /* Adjust font size */
+}
+
+a:hover {
+    color:rgb(1, 41, 172);  /* Change color on hover */
+}
+.screen {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    background: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.canteen-item {
+    text-align: center;
+    margin: 10px 0;
+}
+.canteen-item label {
+    display: inline-block;
+}
+
